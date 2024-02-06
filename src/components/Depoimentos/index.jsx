@@ -20,7 +20,6 @@ const Depo = styled.div`
         font-size: 36px;
         color: #101828;
         margin: 16px 0 32px;
-        width: 1088px;
         max-width: 1088px;
     }
     img {

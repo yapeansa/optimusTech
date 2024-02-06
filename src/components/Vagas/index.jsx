@@ -25,7 +25,7 @@ const ContainerVagas = styled.section`
         color: #667085;
     }
     img {
-        max-width: 1216px;
+        max-width: 100%;
     }
 `
 

@@ -10,7 +10,6 @@ import Footer from "./components/Footer"
 import { useState } from "react"
 
 const MainContainer = styled.main`
-    width: 1440px;
     max-width: 1440px;
     margin: 0 auto;
 `
