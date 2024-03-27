@@ -1,18 +1,21 @@
 # Optimus Tech
 
-Desenvolvimento de interface de usuário do projeto Optimus Tech do #7daysOfCode da instituição Alura.
+Optimus Tech é um projeto que simula uma página de vagas para devs e designers. O ponto de partida foi pegar um layout pronto do Figma e transformá-lo em código.
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Optimus Tech**
-| :label: Tecnologias | html, css, javascript, react.js, node.js (tecnologias utilizadas)
-| :rocket: URL         | https://optimus-tech-puce.vercel.app/
-| :fire: Desafio     | https://7daysofcode.io/matricula/html-css
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3 / SASS / Styled Components
+- Javascript / React
+- Figma
+
+Para desenvolver a interface de usuário, utilizamos o framework React.
+
+## Imagem do projeto
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![OptimusTech](src/assets/optimus-tech.png#vitrinedev)
 
-## Detalhes do projeto
+## Como acessar
 
-Os principais pontos deste projeto foram: utilizar a biblioteca styled-components para criar componentes estilizados e utilizar o hook useState do React para controlar o estado do placeholder no rodapé da página.
-Além disso, praticamos conceitos como flexbox para posicionamento de elementos na tela.
+O projeto pronto pode ser acessado através do endereço [Optimus Tech](https://optimus-tech-puce.vercel.app/).
