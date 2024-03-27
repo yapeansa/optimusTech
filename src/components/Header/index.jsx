@@ -1,7 +1,7 @@
-import ContainerLogo from "./Logo"
-import NavBar from "./MenuPrincipal"
-import BotaoLogin from "./BotaoLogin"
-import { styled } from "styled-components"
+import ContainerLogo from "./Logo";
+import NavBar from "./MenuPrincipal";
+import BotaoLogin from "./BotaoLogin";
+import { styled } from "styled-components";
 
 const ContainerHeader = styled.header`
     display: flex;
@@ -9,17 +9,17 @@ const ContainerHeader = styled.header`
     align-items: center;
     padding: 18px 112px;
     min-height: 80px;
-`
+`;
 
 const ContainerMenuLogo = styled.div`
     display: flex;
     gap: 119px;
-`
+`;
 
 const ContainerLogin = styled.div`
     display: flex;
     gap: 12px;
-`
+`;
 
 const Header = () => {
 
@@ -40,7 +40,7 @@ const Header = () => {
             nome: "Sobre nós",
             id: 4
         }
-    ]
+    ];
 
     return (
         <>
@@ -59,7 +59,7 @@ const Header = () => {
                 </ContainerLogin>
             </ContainerHeader>
         </>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

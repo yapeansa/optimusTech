@@ -1,5 +1,5 @@
-import { styled } from "styled-components"
-import BotaoLogin from "../Header/BotaoLogin"
+import { styled } from "styled-components";
+import BotaoLogin from "../Header/BotaoLogin";
 
 const ContainerFooter = styled.div`
     padding: 96px 0;
@@ -27,7 +27,7 @@ const ContainerFooter = styled.div`
         font-size: 16px;
         color: #98A2B3;
     }
-`
+`;
 
 const CampoEmail = styled.input`
     border-radius: 8px;
@@ -37,7 +37,7 @@ const CampoEmail = styled.input`
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     width: 360px;
     max-width: 360px;
-`
+`;
 
 const Footer = ({ placeholder, aoFocar }) => {
     return (
@@ -50,7 +50,7 @@ const Footer = ({ placeholder, aoFocar }) => {
             </div>
             <p className="footer-text">© 2022 OptimusTech. Todos os direitos reservados.</p>
         </ContainerFooter>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

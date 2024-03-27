@@ -1,9 +1,9 @@
-import { styled } from "styled-components"
-import Avatar from "../../assets/Avatar.svg"
+import { styled } from "styled-components";
+import Avatar from "../../assets/Avatar.svg";
 
 const ContainerDepo = styled.section`
     padding: 0 112px 96px;
-`
+`;
 
 const Depo = styled.div`
     padding: 64px;
@@ -36,7 +36,7 @@ const Depo = styled.div`
         font-size: 14px;
         color: #667085;
     }
-`
+`;
 
 const Depoimentos = () => {
     return (
@@ -49,7 +49,7 @@ const Depoimentos = () => {
                 <p>Desenvolvedora Web</p>
             </Depo>
         </ContainerDepo>
-    )
-}
+    );
+};
 
-export default Depoimentos
+export default Depoimentos;

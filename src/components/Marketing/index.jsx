@@ -1,10 +1,10 @@
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
 const ContainerMarketing = styled.div`
     padding: 0 112px 96px;
     display: flex;
     gap: 32px;
-`
+`;
 
 const CardMarketing = styled.div`
     padding: 0;
@@ -25,7 +25,7 @@ const CardMarketing = styled.div`
         color: #667085;
         margin-top: 8px;
     }
-`
+`;
 
 const Marketing = () => {
 
@@ -54,7 +54,7 @@ const Marketing = () => {
             subtitulo: "Reviews 5 estrelas",
             descricao: "Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos."
         }
-    ]
+    ];
 
     return (
         <ContainerMarketing>
@@ -66,7 +66,7 @@ const Marketing = () => {
                 </CardMarketing>
             )}
         </ContainerMarketing>
-    )
-}
+    );
+};
 
-export default Marketing
+export default Marketing;

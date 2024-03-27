@@ -1,4 +1,4 @@
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
 const ContainerEspecialidades = styled.section`
     padding: 0 112px 96px;
@@ -6,7 +6,7 @@ const ContainerEspecialidades = styled.section`
     flex-direction: column;
     gap: 64px;
     align-items: center;
-`
+`;
 
 const Vaga = styled.div`
     display: flex;
@@ -20,7 +20,7 @@ const Vaga = styled.div`
         font-size: 20px;
         color: #101828;
     }
-`
+`;
 
 const Especialidade = styled.div`
     border: 1px solid #EAECF0;
@@ -41,7 +41,7 @@ const Especialidade = styled.div`
             margin-top: 32px;
         }
     }
-`
+`;
 
 const AreasDisponiveis = () => {
 
@@ -88,7 +88,7 @@ const AreasDisponiveis = () => {
                 }
             ]
         }
-    ]
+    ];
 
     return (
         <ContainerEspecialidades>
@@ -105,7 +105,7 @@ const AreasDisponiveis = () => {
                         </Especialidade>)}
                 </Vaga>)}
         </ContainerEspecialidades>
-    )
-}
+    );
+};
 
-export default AreasDisponiveis
+export default AreasDisponiveis;

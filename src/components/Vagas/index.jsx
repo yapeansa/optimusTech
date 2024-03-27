@@ -1,5 +1,5 @@
-import { styled } from "styled-components"
-import BannerVagas from "../../assets/banner.svg"
+import { styled } from "styled-components";
+import BannerVagas from "../../assets/banner.svg";
 
 const ContainerVagas = styled.section`
     padding: 96px 0 64px;
@@ -27,7 +27,7 @@ const ContainerVagas = styled.section`
     img {
         max-width: 100%;
     }
-`
+`;;
 
 const Vagas = () => {
     return (
@@ -37,7 +37,7 @@ const Vagas = () => {
             <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
             <img src={BannerVagas} alt="Banner Vagas" />
         </ContainerVagas>
-    )
-}
+    );
+};
 
-export default Vagas
+export default Vagas;

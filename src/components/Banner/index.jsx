@@ -1,4 +1,4 @@
-import { styled } from "styled-components"
+import { styled } from "styled-components";
 
 const ContainerBanner = styled.div`
     padding: 96px 0;
@@ -20,7 +20,7 @@ const ContainerBanner = styled.div`
         max-width: 791px;
         margin: 0 auto;
     }
-`
+`;
 
 const Banner = () => {
     return (
@@ -29,7 +29,7 @@ const Banner = () => {
             <h2>Por que somos diferentes?</h2>
             <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
         </ContainerBanner>
-    )
-}
+    );
+};
 
-export default Banner
+export default Banner;
