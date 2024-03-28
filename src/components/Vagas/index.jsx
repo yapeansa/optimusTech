@@ -27,7 +27,11 @@ const ContainerVagas = styled.section`
     img {
         max-width: 100%;
     }
-`;;
+
+    @media screen and (max-width: 600px) {
+        padding: 0 1rem 64px;
+    }
+`;
 
 const Vagas = () => {
     return (

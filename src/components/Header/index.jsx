@@ -2,6 +2,7 @@ import ContainerLogo from "./Logo";
 import NavBar from "./MenuPrincipal";
 import BotaoLogin from "./BotaoLogin";
 import { styled } from "styled-components";
+import { FiMenu } from "react-icons/fi";
 
 const ContainerHeader = styled.header`
     display: flex;
@@ -9,11 +10,19 @@ const ContainerHeader = styled.header`
     align-items: center;
     padding: 18px 112px;
     min-height: 80px;
+
+    @media screen and (max-width: 600px) {
+        padding: 18px 1rem;
+    }
 `;
 
 const ContainerMenuLogo = styled.div`
     display: flex;
     gap: 119px;
+
+    @media screen and (max-width: 600px) {
+        gap: 1rem;
+    }
 `;
 
 const ContainerLogin = styled.div`
@@ -50,7 +59,10 @@ const Header = () => {
                         <img src="./logo.svg" alt="Logo Optimus Tech" />
                     </ContainerLogo>
                     <NavBar>
-                        {menu.map(item => <li key={item.id}><a href="#">{item.nome}</a></li>)}
+                        <FiMenu size={30} className="hamb-menu" />
+                        <ul>
+                            {menu.map(item => <li key={item.id}><a href="#">{item.nome}</a></li>)}
+                        </ul>
                     </NavBar>
                 </ContainerMenuLogo>
                 <ContainerLogin>

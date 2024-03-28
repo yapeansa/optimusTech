@@ -20,6 +20,10 @@ const ContainerBanner = styled.div`
         max-width: 791px;
         margin: 0 auto;
     }
+
+    @media screen and (max-width: 600px) {
+        padding: 96px 1rem;
+    }
 `;
 
 const Banner = () => {

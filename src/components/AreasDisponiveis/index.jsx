@@ -2,18 +2,25 @@ import { styled } from "styled-components";
 
 const ContainerEspecialidades = styled.section`
     padding: 0 112px 96px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     gap: 64px;
-    align-items: center;
+    align-items: center; */
+
+    @media screen and (max-width: 600px) {
+        padding: 0 1rem 96px;
+    }
 `;
 
 const Vaga = styled.div`
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 768px;
-    max-width:768px;
+    max-width: 768px;
+    margin: 0 auto;
+    &:last-child {
+        margin-top: 64px;
+    }
     h3 {
         font-size: 'Inter Medium';
         margin-bottom: 8px;

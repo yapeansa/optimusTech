@@ -3,6 +3,10 @@ import Avatar from "../../assets/Avatar.svg";
 
 const ContainerDepo = styled.section`
     padding: 0 112px 96px;
+
+    @media screen and (max-width: 600px) {
+        padding: 0 1rem 96px;
+    }
 `;
 
 const Depo = styled.div`

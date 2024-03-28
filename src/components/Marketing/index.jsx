@@ -3,7 +3,13 @@ import { styled } from "styled-components";
 const ContainerMarketing = styled.div`
     padding: 0 112px 96px;
     display: flex;
+    justify-content: center;
     gap: 32px;
+
+    @media screen and (max-width: 600px) {
+        flex-wrap: wrap;
+        padding: 0 0 96px;
+    }
 `;
 
 const CardMarketing = styled.div`
@@ -24,6 +30,10 @@ const CardMarketing = styled.div`
         font-size: 16px;
         color: #667085;
         margin-top: 8px;
+    }
+
+    @media screen and (max-width: 600px) {
+        text-align: center;
     }
 `;
 
